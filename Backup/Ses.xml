@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Ses>
+    <SesID>1</SesID>
+    <SesAdi>Alarm</SesAdi>
+    <SesYolu>Ses/alarm.WAV</SesYolu>
+  </Ses>
+  <Ses>
+    <SesID>2</SesID>
+    <SesAdi>Telefon</SesAdi>
+    <SesYolu>Ses/telefon.WAV</SesYolu>
+  </Ses>
+</NewDataSet>

@@ -1,0 +1,399 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Yemek>
+    <YemekID>21</YemekID>
+    <KategoriID>10</KategoriID>
+    <YemekAdi>Türk Kahvaltısı</YemekAdi>
+    <Resim>Upload/kahvalti04_serpme_usulu_kahvalti.jpg</Resim>
+    <Fiyat>11.0000</Fiyat>
+    <UrunKodu>KT0001</UrunKodu>
+    <YemekAciklama>&lt;p&gt;
+	Simit arası eritilmiş kaşar,Domates,Salatalık,Zeytin,Beyaz Peynir,Yumurta ve Bal-Kaymak ile g&amp;uuml;ne iyi başlayın&lt;/p&gt;
+</YemekAciklama>
+    <Hit>126</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>23</YemekID>
+    <KategoriID>10</KategoriID>
+    <YemekAdi>Marlen Kahvaltı</YemekAdi>
+    <Resim>Upload/avrupablog.jpg</Resim>
+    <Fiyat>16.0000</Fiyat>
+    <UrunKodu>KM0001</UrunKodu>
+    <YemekAciklama>&lt;p&gt;
+	&lt;kbd&gt;Beyaz Peynir, &amp;Ouml;rg&amp;uuml; Peyniri,Eski Kaşar,Suda Mozarella,Zeytin,Domates,Krem &amp;Ccedil;ikolata, Bal-Kaymak ,Tereyağı,Yumurta,Sıgara B&amp;ouml;reği,Salam ve Kuru Meyvelerle eşsiz bir kahvaltı keyfi..&lt;/kbd&gt;&lt;/p&gt;
+</YemekAciklama>
+    <Hit>166</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>24</YemekID>
+    <KategoriID>10</KategoriID>
+    <YemekAdi>Klasik Omlet</YemekAdi>
+    <Resim>Upload/bebeklere_peynirli_omlet.jpg</Resim>
+    <Fiyat>5.5000</Fiyat>
+    <UrunKodu>KO0001</UrunKodu>
+    <YemekAciklama>&lt;p&gt;
+	Yumurta,K&amp;ouml;y Peyniri,Mantar,Kapya Biberi, Soğan&lt;/p&gt;
+</YemekAciklama>
+    <Hit>133</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>26</YemekID>
+    <KategoriID>10</KategoriID>
+    <YemekAdi>Jambonlu Sucuklu Omlet</YemekAdi>
+    <Resim>Upload/Sebzeli Omlet.JPG</Resim>
+    <Fiyat>7.5000</Fiyat>
+    <UrunKodu>KO00002</UrunKodu>
+    <YemekAciklama>&lt;p&gt;
+	Yumurta,K&amp;ouml;y peyniri,Mantar,Kapya Biberi,Soğan,Dana Jambon ve Sucuk&lt;/p&gt;
+</YemekAciklama>
+    <Hit>144</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>38</YemekID>
+    <KategoriID>23</KategoriID>
+    <YemekAdi>Dana Bonfile Cafe de Paris Soslu</YemekAdi>
+    <Resim>Upload/13052013003.jpg</Resim>
+    <Fiyat>25.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama>&lt;p&gt;
+	Cafe de Paris Soslu Dana Bonfile, Patates ve &amp;ouml;zel soslarıyla&lt;/p&gt;
+</YemekAciklama>
+    <Hit>165</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>43</YemekID>
+    <KategoriID>14</KategoriID>
+    <YemekAdi>Çoban Salata</YemekAdi>
+    <Resim>Upload/coban-salatasi.jpg</Resim>
+    <Fiyat>6.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>83</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>45</YemekID>
+    <KategoriID>14</KategoriID>
+    <YemekAdi>Akdeniz Salatası</YemekAdi>
+    <Resim>Upload/1580_198.jpg</Resim>
+    <Fiyat>6.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>235</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>49</YemekID>
+    <KategoriID>13</KategoriID>
+    <YemekAdi>Sütlaç</YemekAdi>
+    <Resim>Upload/gokkaplan.com.tr_064756.jpg</Resim>
+    <Fiyat>5.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>143</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>51</YemekID>
+    <KategoriID>13</KategoriID>
+    <YemekAdi>Supangle</YemekAdi>
+    <Resim>Upload/enfes-supangle-tarifi.jpg</Resim>
+    <Fiyat>5.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>113</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>52</YemekID>
+    <KategoriID>13</KategoriID>
+    <YemekAdi>Profiterol</YemekAdi>
+    <Resim>Upload/4_3_profiterol.jpeg</Resim>
+    <Fiyat>5.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>107</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>57</YemekID>
+    <KategoriID>13</KategoriID>
+    <YemekAdi>Tavuk Göğsü</YemekAdi>
+    <Resim>Upload/Tavuk.jpg</Resim>
+    <Fiyat>5.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>114</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>58</YemekID>
+    <KategoriID>23</KategoriID>
+    <YemekAdi>Süt Dana Antrikot</YemekAdi>
+    <Resim>Upload/ramazan-iftar-menusu-sebzeli-dana-antrikot-tarifi.jpg</Resim>
+    <Fiyat>27.5000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>565</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>64</YemekID>
+    <KategoriID>23</KategoriID>
+    <YemekAdi>Piliç Külbastı</YemekAdi>
+    <Resim>Upload/b_Tavuk_Kulbasti.jpg</Resim>
+    <Fiyat>12.5000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>291</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>66</YemekID>
+    <KategoriID>15</KategoriID>
+    <YemekAdi>Spagetti Bolonese</YemekAdi>
+    <Resim>Upload/spaghetti-bolognese.jpg</Resim>
+    <Fiyat>12.5000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>142</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>68</YemekID>
+    <KategoriID>15</KategoriID>
+    <YemekAdi>Penne Arabiatta</YemekAdi>
+    <Resim>Upload/pennearabiata.jpg</Resim>
+    <Fiyat>10.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>106</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>69</YemekID>
+    <KategoriID>23</KategoriID>
+    <YemekAdi>Izgara Köfte</YemekAdi>
+    <Resim>Upload/izgara-kofte.jpg</Resim>
+    <Fiyat>12.5000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>139</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>70</YemekID>
+    <KategoriID>15</KategoriID>
+    <YemekAdi>Spagetti Pomodoro</YemekAdi>
+    <Resim>Upload/spaghetti-pomodoro-MAIN-Real.jpg</Resim>
+    <Fiyat>8.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>168</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>71</YemekID>
+    <KategoriID>12</KategoriID>
+    <YemekAdi>Hamburger Menü</YemekAdi>
+    <Resim>Upload/BURGER.jpg</Resim>
+    <Fiyat>12.5000</Fiyat>
+    <UrunKodu>HM001</UrunKodu>
+    <YemekAciklama>&lt;p&gt;
+	150 gr %100 Dana K&amp;ouml;fte Patates Kızartması ve Kutu i&amp;ccedil;ecek&lt;/p&gt;
+</YemekAciklama>
+    <Hit>367</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>72</YemekID>
+    <KategoriID>12</KategoriID>
+    <YemekAdi>Cheese Burger Menü</YemekAdi>
+    <Resim>Upload/cheeseburger-menu.jpg</Resim>
+    <Fiyat>12.5000</Fiyat>
+    <UrunKodu>HM002</UrunKodu>
+    <YemekAciklama>&lt;p&gt;
+	150 gr % 100 Dana K&amp;ouml;fte, Chedar Peyniri ,Patates Kızartması ve Kutu i&amp;ccedil;ecek&lt;/p&gt;
+</YemekAciklama>
+    <Hit>272</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>73</YemekID>
+    <KategoriID>12</KategoriID>
+    <YemekAdi>Chicken Burger Menü</YemekAdi>
+    <Resim>Upload/chicken_burgerCombo.jpg</Resim>
+    <Fiyat>12.5000</Fiyat>
+    <UrunKodu>HM003</UrunKodu>
+    <YemekAciklama>&lt;p&gt;
+	150 gr Tavuk Bonfile eti, Patates Kızartması ve Kutu i&amp;ccedil;ecek&lt;/p&gt;
+</YemekAciklama>
+    <Hit>110</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>74</YemekID>
+    <KategoriID>12</KategoriID>
+    <YemekAdi>Double Marlen Burger Menü</YemekAdi>
+    <Resim>Upload/indir.jpg</Resim>
+    <Fiyat>19.5000</Fiyat>
+    <UrunKodu>HM0005</UrunKodu>
+    <YemekAciklama />
+    <Hit>99</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>75</YemekID>
+    <KategoriID>12</KategoriID>
+    <YemekAdi>Marlen Burger Menü</YemekAdi>
+    <Resim>Upload/9-2-hamburger menu-500x500.jpg</Resim>
+    <Fiyat>13.5000</Fiyat>
+    <UrunKodu>HM006</UrunKodu>
+    <YemekAciklama />
+    <Hit>214</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>76</YemekID>
+    <KategoriID>12</KategoriID>
+    <YemekAdi>Mushroom Burger Menü</YemekAdi>
+    <Resim>Upload/mushroom_burger.jpg</Resim>
+    <Fiyat>14.5000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>148</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>77</YemekID>
+    <KategoriID>12</KategoriID>
+    <YemekAdi>Double Burger Nenü</YemekAdi>
+    <Resim>Upload/Double Burger.png</Resim>
+    <Fiyat>17.5000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>184</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>78</YemekID>
+    <KategoriID>12</KategoriID>
+    <YemekAdi>Triple Burger Menü</YemekAdi>
+    <Resim>Upload/bully-burger.png</Resim>
+    <Fiyat>22.5000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>110</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>79</YemekID>
+    <KategoriID>11</KategoriID>
+    <YemekAdi>Etli Buritto</YemekAdi>
+    <Resim>Upload/20131023_203103.jpg</Resim>
+    <Fiyat>17.5000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>119</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>80</YemekID>
+    <KategoriID>11</KategoriID>
+    <YemekAdi>Etli Quesedilla</YemekAdi>
+    <Resim>Upload/2410201321194771slide06.jpg</Resim>
+    <Fiyat>18.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>110</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>81</YemekID>
+    <KategoriID>11</KategoriID>
+    <YemekAdi>Tavuklu Wrap</YemekAdi>
+    <Resim>Upload/22_11_2013_19_37_05.jpg</Resim>
+    <Fiyat>13.5000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>574</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>82</YemekID>
+    <KategoriID>11</KategoriID>
+    <YemekAdi>Köfteli Wrap</YemekAdi>
+    <Resim>Upload/QWCVWYQADG.jpg</Resim>
+    <Fiyat>13.5000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>176</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>83</YemekID>
+    <KategoriID>11</KategoriID>
+    <YemekAdi>Etli Wrap</YemekAdi>
+    <Resim>Upload/etli-wrap-1024x749.jpg</Resim>
+    <Fiyat>15.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>213</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>84</YemekID>
+    <KategoriID>11</KategoriID>
+    <YemekAdi>Köfteli Buritto</YemekAdi>
+    <Resim>Upload/kofteliburrito.jpg</Resim>
+    <Fiyat>15.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>107</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>85</YemekID>
+    <KategoriID>11</KategoriID>
+    <YemekAdi>Tavuklu Buritto</YemekAdi>
+    <Resim>Upload/tavukwrap-b.jpg</Resim>
+    <Fiyat>14.5000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>130</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>86</YemekID>
+    <KategoriID>11</KategoriID>
+    <YemekAdi>Tavuklu Quesedilla</YemekAdi>
+    <Resim>Upload/tavquesedilla.jpg</Resim>
+    <Fiyat>15.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>144</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>87</YemekID>
+    <KategoriID>27</KategoriID>
+    <YemekAdi>Sebzeli Quesedilla</YemekAdi>
+    <Resim>Upload/QUESADİLLA SEBZELİ_600x400.jpg</Resim>
+    <Fiyat>13.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>142</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>88</YemekID>
+    <KategoriID>28</KategoriID>
+    <YemekAdi>Mozarella Stick</YemekAdi>
+    <Resim>Upload/imagesmozstck.jpg</Resim>
+    <Fiyat>10.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>136</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>89</YemekID>
+    <KategoriID>28</KategoriID>
+    <YemekAdi>Sebzeli Çin Böreği</YemekAdi>
+    <Resim>Upload/IMG_4071.JPG</Resim>
+    <Fiyat>10.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>181</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>90</YemekID>
+    <KategoriID>28</KategoriID>
+    <YemekAdi>Kızartılmış Soğan Halkaları</YemekAdi>
+    <Resim>Upload/4c5153b6ab.jpg</Resim>
+    <Fiyat>9.5000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>311</Hit>
+  </Yemek>
+  <Yemek>
+    <YemekID>91</YemekID>
+    <KategoriID>28</KategoriID>
+    <YemekAdi>Acılı Tavuk Kanatları</YemekAdi>
+    <Resim>Upload/dsc_1110.jpg</Resim>
+    <Fiyat>12.0000</Fiyat>
+    <UrunKodu />
+    <YemekAciklama />
+    <Hit>138</Hit>
+  </Yemek>
+</NewDataSet>

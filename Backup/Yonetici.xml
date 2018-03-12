@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Yonetici>
+    <YoneticiID>1</YoneticiID>
+    <KullaniciAdi>admin</KullaniciAdi>
+    <Sifre>admin</Sifre>
+    <Email>yavuz@yavuzmercan.com</Email>
+    <Isim>yavuz</Isim>
+    <Soyisim>mercan</Soyisim>
+  </Yonetici>
+</NewDataSet>

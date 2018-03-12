@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <OdemeTuru>
+    <OdemeID>1</OdemeID>
+    <OdemeAdi>Kap&amp;#305;da Ödeme</OdemeAdi>
+  </OdemeTuru>
+  <OdemeTuru>
+    <OdemeID>2</OdemeID>
+    <OdemeAdi>Havale &amp;#304;le Ödeme</OdemeAdi>
+  </OdemeTuru>
+</NewDataSet>

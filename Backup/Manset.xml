@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Manset>
+    <MansetID>1</MansetID>
+    <Resim>Upload/slide1.jpg</Resim>
+  </Manset>
+  <Manset>
+    <MansetID>2</MansetID>
+    <Resim>Upload/slide2.jpg</Resim>
+  </Manset>
+  <Manset>
+    <MansetID>3</MansetID>
+    <Resim>Upload/slide3.jpg</Resim>
+  </Manset>
+  <Manset>
+    <MansetID>4</MansetID>
+    <Resim>Upload/slide1.jpg</Resim>
+  </Manset>
+  <Manset>
+    <MansetID>5</MansetID>
+    <Resim>Upload/slide2.jpg</Resim>
+  </Manset>
+  <Manset>
+    <MansetID>6</MansetID>
+    <Resim>Upload/slide3.jpg</Resim>
+  </Manset>
+</NewDataSet>

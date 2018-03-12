@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Kategori>
+    <KategoriID>10</KategoriID>
+    <KategoriAdi>Kahvaltı</KategoriAdi>
+    <UstKategoriID>0</UstKategoriID>
+    <Resim>Upload/</Resim>
+  </Kategori>
+  <Kategori>
+    <KategoriID>11</KategoriID>
+    <KategoriAdi>Meksika Ateşi</KategoriAdi>
+    <UstKategoriID>0</UstKategoriID>
+    <Resim>Upload/</Resim>
+  </Kategori>
+  <Kategori>
+    <KategoriID>12</KategoriID>
+    <KategoriAdi>Burgerler</KategoriAdi>
+    <UstKategoriID>0</UstKategoriID>
+    <Resim>Upload/</Resim>
+  </Kategori>
+  <Kategori>
+    <KategoriID>13</KategoriID>
+    <KategoriAdi>Tatlılar</KategoriAdi>
+    <UstKategoriID>0</UstKategoriID>
+    <Resim>Upload/</Resim>
+  </Kategori>
+  <Kategori>
+    <KategoriID>14</KategoriID>
+    <KategoriAdi>Salatalar</KategoriAdi>
+    <UstKategoriID>0</UstKategoriID>
+    <Resim>Upload/</Resim>
+  </Kategori>
+  <Kategori>
+    <KategoriID>15</KategoriID>
+    <KategoriAdi>Makarnalar</KategoriAdi>
+    <UstKategoriID>0</UstKategoriID>
+    <Resim>Upload/</Resim>
+  </Kategori>
+  <Kategori>
+    <KategoriID>23</KategoriID>
+    <KategoriAdi>Et &amp; Tavuk</KategoriAdi>
+    <UstKategoriID>0</UstKategoriID>
+    <Resim>Upload/</Resim>
+  </Kategori>
+  <Kategori>
+    <KategoriID>25</KategoriID>
+    <KategoriAdi>Sandviçler</KategoriAdi>
+    <UstKategoriID>0</UstKategoriID>
+    <Resim>Upload/</Resim>
+  </Kategori>
+  <Kategori>
+    <KategoriID>26</KategoriID>
+    <KategoriAdi>Yöresel</KategoriAdi>
+    <UstKategoriID>0</UstKategoriID>
+    <Resim>Upload/</Resim>
+  </Kategori>
+  <Kategori>
+    <KategoriID>27</KategoriID>
+    <KategoriAdi>Diet Menü</KategoriAdi>
+    <UstKategoriID>0</UstKategoriID>
+    <Resim>Upload/</Resim>
+  </Kategori>
+  <Kategori>
+    <KategoriID>28</KategoriID>
+    <KategoriAdi>Başlangıçlar</KategoriAdi>
+    <UstKategoriID>0</UstKategoriID>
+    <Resim>Upload/imagesmozstck.jpg</Resim>
+  </Kategori>
+</NewDataSet>

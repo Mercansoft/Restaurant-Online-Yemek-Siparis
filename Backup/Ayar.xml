@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Ayar>
+    <AyarID>1</AyarID>
+    <Title>Mercan Restaurant Online Sipariş v2.3- Mercan Yazılım.NET</Title>
+    <Footer>Powered By &lt;a href="http://www.mercanyazilim.net"&gt;MercanYazilim.NET&lt;/a&gt;</Footer>
+    <Aciklama>A2</Aciklama>
+    <AnahtarKelime>A</AnahtarKelime>
+    <Adres>Merkez/Rize</Adres>
+    <SabitTelefon>0242 554 32 65</SabitTelefon>
+    <FaxTelefon>0242 554 32 65</FaxTelefon>
+    <CepTelefon>0532 265 4578</CepTelefon>
+  </Ayar>
+</NewDataSet>

@@ -1,0 +1,311 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Debug="true" Inherits="Yonetici_Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MercanPanel v3.0 - MercanYazilim.NET</title>
+<link rel="stylesheet" href="css/style.default.css" type="text/css" />
+<link rel="stylesheet" href="prettify/prettify.css" type="text/css" />
+<script type="text/javascript" src="prettify/prettify.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.9.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.flot.min.js"></script>
+<script type="text/javascript" src="js/jquery.flot.resize.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
+</head>
+
+<body>
+    <asp:Panel ID="_pnlYonetim" runat="server">
+    <form id="form1" runat="server">
+<div class="mainwrapper">
+	
+    <!-- START OF LEFT PANEL -->
+    <div class="leftpanel">
+    	
+        <div class="logopanel">
+        	<h1><a href="Default.aspx">MercanPanel <span>v3.0</span></a></h1>
+        </div><!--logopanel-->
+        
+        <div class="datewidget">
+            <asp:Label ID="_lblTarih" runat="server" Text="Label"></asp:Label></div>
+    
+    	<div class="searchwidget">
+        	
+            	<div class="input-append">
+                    <input type="text" class="span2 search-query" placeholder="Search here...">
+                    <button type="submit" class="btn"><span class="icon-search"></span></button>
+                </div>
+            
+        </div><!--searchwidget-->
+        
+        <!--plainwidget-->
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+       
+  <asp:Timer ID="Timer1" runat="server" OnTick="Timer1_Tick"></asp:Timer>
+<%--<asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
+
+<ContentTemplate>
+ <asp:Timer ID="Timer1" runat="server" OnTick="Timer1_Tick"></asp:Timer>
+</ContentTemplate>
+
+
+<Triggers>
+<asp:AsyncPostBackTrigger ControlID="Timer1" />
+</Triggers>
+</asp:UpdatePanel>--%>
+
+
+        <div class="plainwidget">
+        	<small>Veritabanı Boyutunuz </small>
+        	<div>
+                <asp:Label ID="_lblVeritabaniBoyutu" Text="Bilgi Yok" runat="server"></asp:Label>
+            </div>
+            <small><strong></strong></small>
+        </div>
+        <div class="plainwidget">
+        	<small>Kullanılan Disk Boyutunuz </small>
+        	<div>
+                <asp:Label ID="Label1" runat="server" Text="Bilgi Yok"></asp:Label>
+            </div>
+            <small><strong></strong></small>
+        </div>
+        <div class="leftmenu">        
+            <ul class="nav nav-tabs nav-stacked">
+            	<li class="nav-header">Yönetim Menüsü</li>
+                <li class="active"><a href="Default.aspx"><span class="icon-align-justify"></span>Ana Panel</a></li>
+                 <li class="dropdown"><a href=""><span class="icon-briefcase"></span> Sipariş Yönetimi</a>
+                <ul>
+                    	<li><a href="Siparis.aspx?Komut=Yeni">Yeni Gelen Siparişler - <b><asp:Label ID="_lblYeniGelenSiparis" runat="server"></asp:Label></b></a> </li>
+                        <li><a href="Siparis.aspx?Komut=Gonderilecek">Gönderilecek Siparişler - <b><asp:Label ID="_lblGonderilecekSiparis" runat="server"></asp:Label></b></a></li>
+                        <li><a href="Siparis.aspx?Komut=Gonderilen">Gönderilen Siparişler - <b><asp:Label ID="_lblGonderilenSiparis" runat="server"></asp:Label></b></a></li>
+                    <li><a href="Siparis.aspx?Komut=Tumu">Tüm Siparişler</a></li>
+                        <li><a href="Istatistik.aspx">İstatistikler</a></li>
+
+                    </ul>
+                 </li>
+                <li class="dropdown"><a href=""><span class="icon-briefcase"></span> Yemek Yönetimi</a>
+                	<ul>
+                    	<li><a href="Yemek.aspx?Komut=Ekle">Yeni Yemek Ekle</a></li>
+                        <li><a href="Yemek.aspx?Komut=Listele">Yemek Listesi</a></li>
+                        <li><a href="Kategori.aspx">Kategoriler</a></li>
+                        <li><a href="Menu.aspx">Menü Yönetimi</a></li>
+
+                    </ul>
+                </li>
+                                <li class="dropdown"><a href=""><span class="icon-briefcase"></span> Eklenti Yönetimi</a>
+                	<ul>
+                    	<li><a href="Eklenti.aspx?Komut=Ekle">Yeni Eklenti Ekle</a></li>
+                        <li><a href="Eklenti.aspx?Komut=Listele">Eklenti Listesi</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown"><a href=""><span class="icon-envelope"></span> Mesaj Yönetimi</a>
+                	<ul>
+                    	<li><a href="Mesaj.aspx">Gelen Mesajlar</a></li>
+                        <li><a href="Mesaj.aspx?Listele=ok">Okunmuş Mesajlar</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href=""><span class="icon-pencil"></span> Site Yönetimi</a>
+                	<ul>
+                        <li><a href="Sayfa.aspx">Sayfa Yönetimi</a></li>
+                        <li><a href="Hizmet.aspx">Hizmet Yönetimi</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span class="icon-play"></span> Manşet & Slide Yönetimi</a>
+                    
+                  <ul>
+                    	<li><a href="Manset.aspx">Manşet Ayarları</a></li>
+                        <li><a href="Slider.aspx">Ürün Slide Ayarları</a></li>
+                    </ul>
+                    </li>
+                 <li><a href="Ayar.aspx"><span class="icon-font"></span> Genel Ayarlar</a></li>
+                  <li class="dropdown"><a href="#"><span class="icon-play"></span> Uyarı Sistemi</a>
+                  <ul>
+                      <li><a href="UyariMailAyar.aspx">Uyarı Mail Ayarları</a></li>
+                    	<li><a href="UyariAyar.aspx">Uyarı Ayarları</a></li>
+                        <li><a href="UyariSes.aspx">Uyarı Ses Ayarları</a></li>
+                    </ul>
+                    </li>
+                 <li><a href="Hatirlatma.aspx"><span class="icon-play"></span> Hatırlatmalar</a></li>
+                  <li class="dropdown"><a href="#"><span class="icon-play"></span> Yöneticiler</a>
+                  <ul>
+                    	<li><a href="Yonetici.aspx?myp=Ekle">Yönetici Ekle</a></li>
+                        <li><a href="Yonetici.aspx?myp=Listele">Yönetici Listesi</a></li>
+                    </ul>
+                    </li>
+            </ul>
+        </div><!--leftmenu-->
+        
+    </div><!--mainleft-->
+    <!-- END OF LEFT PANEL -->
+    
+    <!-- START OF RIGHT PANEL -->
+    <div class="rightpanel">
+    	<div class="headerpanel">
+        	<a href="" class="showmenu"></a>
+            
+            <div class="headerright">
+            	<div class="dropdown notification">
+                    <a class="dropdown-toggle" data-toggle="dropdown"target="_blank" href="http://www.mercanyazilim.net">
+                    	<span class="iconsweets-globe iconsweets-white"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                    	<li class="nav-header">Yazılım Bilgileri</li>
+<%--                        <li>
+                        	<a href="">
+                        	<strong>3 people viewed your profile</strong><br />
+                            <img src="img/thumbs/thumb1.png" alt="" />
+                            <img src="img/thumbs/thumb2.png" alt="" />
+                            <img src="img/thumbs/thumb3.png" alt="" />
+                            </a>
+                        </li>--%>
+                        <li><a href=""><span class="icon-user"></span> Lisans Bitimine Kalan Süre : <small class="muted"> <asp:Label ID="_lblLisans" runat="server"></asp:Label></small></a></li>
+<%--                        <li><a href=""><span class="icon-envelope"></span> New message from <strong>Daniel</strong> <small class="muted"> - 2 days ago</small></a></li>
+                        <li><a href=""><span class="icon-user"></span> <strong>Bruce</strong> is now following you <small class="muted"> - 2 days ago</small></a></li>--%>
+                        <li class="viewmore"><a href="http://www.mercanyazilim.net/">Lisans Uzat / Satın Al</a></li>
+                    </ul>
+                </div><!--dropdown-->
+                
+    			<div class="dropdown userinfo">
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="http://themepixels.com/page.html">Selam, 
+                        <asp:Label ID="_lblYoneticiAdi" runat="server" Text=""></asp:Label>! <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Yonetici.aspx?myp=Listele"><span class="icon-edit"></span> Yoneticiler</a></li>
+                        <li class="divider"></li>
+                        <li><a href="Default.aspx?myp=Cikis"><span class="icon-off"></span> Çıkış</a></li>
+                    </ul>
+                </div><!--dropdown-->
+    		
+            </div><!--headerright-->
+            
+    	</div><!--headerpanel-->
+        <div class="breadcrumbwidget">
+<%--        	<ul class="skins">
+                <li><a href="default" class="skin-color default"></a></li>
+                <li><a href="orange" class="skin-color orange"></a></li>
+                <li><a href="dark" class="skin-color dark"></a></li>
+                <li>&nbsp;</li>
+                <li class="fixed"><a href="" class="skin-layout fixed"></a></li>
+                <li class="wide"><a href="" class="skin-layout wide"></a></li>
+            </ul>--%>
+<%--        	<ul class="breadcrumb">
+                <li><a href="dashboard.html">Home</a> <span class="divider">/</span></li>
+                <li class="active">Dashboard</li>
+            </ul>--%>
+        </div>
+      <div class="pagetitle">
+        	<h1>Yönetim Paneli</h1> <span>Mercan Yazılım .NET İçerik Yönetim Sistemi Panel v3.0</span>
+        </div><!--pagetitle-->
+        <div id="player" hidden="true">
+        <asp:Literal ID="_lblPlayer" runat="server"></asp:Literal></div>
+        
+        <div class="maincontent">
+        	        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        </div><!--maincontent-->
+        
+    </div><!--mainright-->
+    <!-- END OF RIGHT PANEL -->
+    
+    <div class="clearfix"></div>
+    
+    <div class="footer">
+    	<div class="footerleft">Mercan Panel v3.0</div>
+    	<div class="footerright">&copy; Mercan Yazılım .NET - <a href="http://twitter.com/MercanYazilim">Follow me on Twitter</a> - Design By <a href="http://www.mercanyazilim.net">Mercan Yazılım</a></div>
+        
+    </div><!--footer-->
+
+    
+</div><!--mainwrapper-->
+        </form>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+
+        // basic chart
+        var flash = [[0, 2], [1, 6], [2, 3], [3, 8], [4, 5], [5, 13], [6, 8]];
+        var html5 = [[0, 5], [1, 4], [2, 4], [3, 1], [4, 9], [5, 10], [6, 13]];
+
+        function showTooltip(x, y, contents) {
+            jQuery('<div id="tooltip" class="tooltipflot">' + contents + '</div>').css({
+                position: 'absolute',
+                display: 'none',
+                top: y + 5,
+                left: x + 5
+            }).appendTo("body").fadeIn(200);
+        }
+
+
+        var plot = jQuery.plot(jQuery("#chartplace2"),
+			   [{ data: flash, label: "Flash(x)", color: "#fb6409" }, { data: html5, label: "HTML5(x)", color: "#096afb"}], {
+			       series: {
+			           lines: { show: true, fill: true, fillColor: { colors: [{ opacity: 0.05 }, { opacity: 0.15}]} },
+			           points: { show: true }
+			       },
+			       legend: { position: 'nw' },
+			       grid: { hoverable: true, clickable: true, borderColor: '#ccc', borderWidth: 1, labelMargin: 10 },
+			       yaxis: { min: 0, max: 15 }
+			   });
+
+        var previousPoint = null;
+        jQuery("#chartplace2").bind("plothover", function (event, pos, item) {
+            jQuery("#x").text(pos.x.toFixed(2));
+            jQuery("#y").text(pos.y.toFixed(2));
+
+            if (item) {
+                if (previousPoint != item.dataIndex) {
+                    previousPoint = item.dataIndex;
+
+                    jQuery("#tooltip").remove();
+                    var x = item.datapoint[0].toFixed(2),
+					y = item.datapoint[1].toFixed(2);
+
+                    showTooltip(item.pageX, item.pageY,
+									item.series.label + " of " + x + " = " + y);
+                }
+
+            } else {
+                jQuery("#tooltip").remove();
+                previousPoint = null;
+            }
+
+        });
+
+        jQuery("#chartplace2").bind("plotclick", function (event, pos, item) {
+            if (item) {
+                jQuery("#clickdata").text("You clicked point " + item.dataIndex + " in " + item.series.label + ".");
+                plot.highlight(item.series, item.datapoint);
+            }
+        });
+
+
+        // bar graph
+        var d2 = [];
+        for (var i = 0; i <= 10; i += 1)
+            d2.push([i, parseInt(Math.random() * 30)]);
+
+        var stack = 0, bars = true, lines = false, steps = false;
+        jQuery.plot(jQuery("#bargraph2"), [d2], {
+            series: {
+                stack: stack,
+                lines: { show: lines, fill: true, steps: steps },
+                bars: { show: bars, barWidth: 0.6 }
+            },
+            grid: { hoverable: true, clickable: true, borderColor: '#bbb', borderWidth: 1, labelMargin: 10 },
+            colors: ["#06c"]
+        });
+
+        // calendar
+        jQuery('#calendar').datepicker();
+
+
+    });
+</script>
+        </asp:Panel>
+</body>
+</html>

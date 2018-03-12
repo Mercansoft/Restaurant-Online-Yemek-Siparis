@@ -1,0 +1,93 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Mesaj>
+    <MesajID>1</MesajID>
+    <Kimden>Yavuz</Kimden>
+    <Konu>Çorbalar&amp;#305;n&amp;#305;z Berbattttttttttt:D</Konu>
+    <Email>yavuz@yavuzmercan.com</Email>
+    <Telefon>05343716661</Telefon>
+    <Mesaj>konudada belirttim üzre</Mesaj>
+    <Tarih>2013-02-27T21:51:00+02:00</Tarih>
+    <Durum>false</Durum>
+  </Mesaj>
+  <Mesaj>
+    <MesajID>2</MesajID>
+    <Kimden>as</Kimden>
+    <Konu>asdasd</Konu>
+    <Email>asd</Email>
+    <Telefon>asd</Telefon>
+    <Mesaj>asd</Mesaj>
+    <Tarih>2013-02-27T21:54:00+02:00</Tarih>
+    <Durum>false</Durum>
+  </Mesaj>
+  <Mesaj>
+    <MesajID>3</MesajID>
+    <Kimden>yavuz mercan</Kimden>
+    <Konu>Sadece Deneme Yap&amp;#305;yorum</Konu>
+    <Email>yavuz@yavuzmercan.com</Email>
+    <Telefon>05343716661</Telefon>
+    <Mesaj>merhaba say&amp;#305;n adnan mercan sizin çorbalar&amp;#305;n&amp;#305;zdan negret ediyorum nedenmi çok tuzlular5 ve berbat kokular&amp;#305;aramf afasdvasdfasdf</Mesaj>
+    <Tarih>2013-03-03T15:19:00+02:00</Tarih>
+    <Durum>false</Durum>
+  </Mesaj>
+  <Mesaj>
+    <MesajID>4</MesajID>
+    <Kimden />
+    <Konu />
+    <Email />
+    <Telefon />
+    <Mesaj />
+    <Tarih>2013-07-31T01:43:00+03:00</Tarih>
+    <Durum>false</Durum>
+  </Mesaj>
+  <Mesaj>
+    <MesajID>5</MesajID>
+    <Kimden>Yavuz</Kimden>
+    <Konu>Yemekler Hakkında</Konu>
+    <Email>yavuz@mercanyazilim.net</Email>
+    <Telefon>0534 371 66 61</Telefon>
+    <Mesaj>Yemekleriniz bir harika..</Mesaj>
+    <Tarih>2013-11-08T08:29:00+02:00</Tarih>
+    <Durum>false</Durum>
+  </Mesaj>
+  <Mesaj>
+    <MesajID>6</MesajID>
+    <Kimden />
+    <Konu />
+    <Email />
+    <Telefon />
+    <Mesaj />
+    <Tarih>2013-11-19T22:21:00+02:00</Tarih>
+    <Durum>false</Durum>
+  </Mesaj>
+  <Mesaj>
+    <MesajID>7</MesajID>
+    <Kimden />
+    <Konu />
+    <Email />
+    <Telefon />
+    <Mesaj />
+    <Tarih>2013-12-20T11:17:00+02:00</Tarih>
+    <Durum>false</Durum>
+  </Mesaj>
+  <Mesaj>
+    <MesajID>8</MesajID>
+    <Kimden />
+    <Konu />
+    <Email />
+    <Telefon />
+    <Mesaj />
+    <Tarih>2014-02-26T10:24:00+02:00</Tarih>
+    <Durum>false</Durum>
+  </Mesaj>
+  <Mesaj>
+    <MesajID>9</MesajID>
+    <Kimden />
+    <Konu />
+    <Email />
+    <Telefon />
+    <Mesaj />
+    <Tarih>2014-03-19T15:05:00+02:00</Tarih>
+    <Durum>false</Durum>
+  </Mesaj>
+</NewDataSet>

@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Sayfa>
+    <SayfaID>1</SayfaID>
+    <SayfaAdi>Hakk&amp;#305;m&amp;#305;zda</SayfaAdi>
+    <Resim>Upload/bigimage02.jpg</Resim>
+    <Icerik>&lt;p&gt;
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/p&gt;
+&lt;div class="box-content"&gt;
+	&lt;div class="box-product fixed"&gt;
+		Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of &lt;a class="wrap_link" href="http://localhost:7374/CaddeCorbacisi/Yemek.aspx?ID=4"&gt;&lt;span class="image"&gt;&lt;img alt="Domates Çorba" height="180" src="http://localhost:7374/CaddeCorbacisi/Upload/prod_pic3.jpg" width="180" /&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+	Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like&lt;/p&gt;
+&lt;p&gt;
+	Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+</Icerik>
+  </Sayfa>
+  <Sayfa>
+    <SayfaID>2</SayfaID>
+    <SayfaAdi>Vizyonumuz</SayfaAdi>
+    <Resim>Upload/pizza5.jpg</Resim>
+    <Icerik>&lt;h1&gt;
+	Heading title H1&lt;/h1&gt;
+&lt;p&gt;
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.&lt;/p&gt;
+&lt;h2&gt;
+	Heading title H2&lt;/h2&gt;
+&lt;p&gt;
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.&lt;/p&gt;
+&lt;h3&gt;
+	Heading title H3&lt;/h3&gt;
+</Icerik>
+  </Sayfa>
+</NewDataSet>

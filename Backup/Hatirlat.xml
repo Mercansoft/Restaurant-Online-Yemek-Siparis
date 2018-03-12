@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Hatirlat>
+    <HatirlatID>5</HatirlatID>
+    <Baslik>Mercan Online Sipariş v1.5</Baslik>
+    <Konu />
+    <Tarih>2014-02-24T14:04:00+02:00</Tarih>
+  </Hatirlat>
+  <Hatirlat>
+    <HatirlatID>6</HatirlatID>
+    <Baslik>Mercan Online Sipariş v2.0</Baslik>
+    <Konu>Mercan Online Sipariş v2.0</Konu>
+    <Tarih>2014-02-24T14:04:00+02:00</Tarih>
+  </Hatirlat>
+  <Hatirlat>
+    <HatirlatID>7</HatirlatID>
+    <Baslik>Mercan Online Sipariş v2.3</Baslik>
+    <Konu>Mercan Online Sipariş v2.3</Konu>
+    <Tarih>2014-02-24T14:04:00+02:00</Tarih>
+  </Hatirlat>
+</NewDataSet>

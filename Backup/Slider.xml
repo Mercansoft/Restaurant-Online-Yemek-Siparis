@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Slider>
+    <SliderID>1</SliderID>
+    <YemekID>5</YemekID>
+  </Slider>
+  <Slider>
+    <SliderID>2</SliderID>
+    <YemekID>4</YemekID>
+  </Slider>
+  <Slider>
+    <SliderID>3</SliderID>
+    <YemekID>8</YemekID>
+  </Slider>
+  <Slider>
+    <SliderID>5</SliderID>
+    <YemekID>14</YemekID>
+  </Slider>
+</NewDataSet>

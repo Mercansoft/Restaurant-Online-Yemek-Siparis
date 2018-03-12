@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Hizmet>
+    <HizmetID>1</HizmetID>
+    <HizmetAdi>Organizasyonlar&amp;#305;n&amp;#305;za Yemek Tedari&amp;#287;i</HizmetAdi>
+    <Resim>Upload/slide1.jpg</Resim>
+    <Icerik>&lt;p&gt;
+	Organizasyonlar&amp;#305;n&amp;#305;za Yemek Tedari&amp;#287;i sa&amp;#287;lamaktay&amp;#305;z&lt;/p&gt;
+&lt;p&gt;
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/p&gt;
+&lt;p&gt;
+	Lorem Ipsum has been the industry&amp;#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of&lt;/p&gt;
+</Icerik>
+  </Hizmet>
+  <Hizmet>
+    <HizmetID>2</HizmetID>
+    <HizmetAdi>Sünnet Organizasyonlar&amp;#305;</HizmetAdi>
+    <Resim>Upload/bigimage02.jpg</Resim>
+    <Icerik>&lt;p&gt;
+	S&amp;uuml;nnet Organizasyonlar&amp;#305;&lt;/p&gt;
+</Icerik>
+  </Hizmet>
+</NewDataSet>

@@ -1,0 +1,87 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Sipariş Bilgileri</title>
+<style type="text/css">
+<!--
+body {
+  font-family:Tahoma;
+}
+
+img {
+  border:0;
+}
+
+#page {
+  width:800px;
+  margin:0 auto;
+  padding:15px;
+
+}
+
+#logo {
+  float:left;
+  margin:0;
+}
+
+#address {
+  height:181px;
+  margin-left:250px; 
+}
+
+table {
+  width:100%;
+}
+
+td {
+padding:5px;
+}
+
+tr.odd {
+  background:#e1ffe1;
+}
+-->
+</style>
+</head>
+<body>
+<div id="page">
+    <div id="logo">
+        <a href="http://www.mercanyazilim.net/"><img src="../image/logo.png"></a>
+    </div>
+      <div id="address">
+
+      <p>
+          <strong>Sipariş Bilgileri</strong><br/><br/>
+          Müşteri Adı: {AdiSoyadi}<br/>
+          Telefon: {Telefon}<br/>
+          Ödeme Türü: {Odeme}<br/>
+          Adres : {Adres}</p>
+    </div>
+
+  <div id="content">
+<br/>
+         ..::
+         Yemek Siparişleri ::..<hr/>
+      <table>
+          <tr><td><strong>Ürün Adı</strong></td><td><strong>Miktar</strong></td><td><strong>Fiyat</strong></td><td><strong>Toplam</strong></td></tr>
+          <tr class="odd"><td>{UrunAdi}</td><td>{Adet}</td><td>{Fiyat}</td><td>{Toplam}</td></tr><tr class="even"></tr>
+      </table>
+      <hr/>..:: Eklenti Siparişleri ::..<hr/>
+          <table>
+      <tr><td><strong>Ürün Adı</strong></td><td><strong>Miktar</strong></td><td><strong>Fiyat</strong></td><td><strong>Toplam</strong></td></tr>
+        <tr class="odd"><td>{UrunAdi}</td><td>{Adet}</td><td>{Fiyat}</td><td>{Toplam}</td></tr><tr class="even"></tr> 
+        
+
+    </table>
+<hr>
+      <table>
+          
+          <tr><td><strong>Genel Toplam&nbsp; </strong></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>&nbsp; &nbsp;</td><td><strong>{Toplam}</strong></td></tr>
+      </table>
+  </div>
+</div>
+</body>
+
+</html>

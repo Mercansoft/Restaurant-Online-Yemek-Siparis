@@ -1,0 +1,242 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>
+    <asp:Literal ID="_lblTitle" runat="server"></asp:Literal></title>
+<link rel="stylesheet" href="stylesheet/stylesheet.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="stylesheet/cloud-zoom.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'/>
+<link rel="stylesheet" href="stylesheet/carousel.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="stylesheet/jquery-ui-1.8.9.custom.css" />
+<!-- jQuery and Custom scripts -->
+<script src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
+<script src="js/jquery.cycle.lite.1.0.min.js" type="text/javascript"></script>
+<script src="js/custom_scripts.js" type="text/javascript"></script>
+<script src="js/jquery.roundabout.min.js" type="text/javascript"></script>
+<script src="js/cloud-zoom.1.0.2.min.js" type="text/javascript"></script>
+<script src="js/jquery.jcarousel.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.9.custom.min.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
+<!-- SLIDER AND LIGHTBOXES -->
+<link rel="stylesheet" type="text/css" href="js/lightbox-0.5/css/jquery.lightbox-0.5.css" />
+<link rel="stylesheet" type="text/css" href="js/prettyphoto/css/prettyPhoto.css" />
+<script type="text/javascript" src="js/li-slider/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/lightbox-0.5/js/jquery.lightbox-0.5.min.js"></script>
+<script type="text/javascript" src="js/prettyphoto/js/jquery.prettyPhoto.js"></script>
+<link rel="stylesheet" type="text/css" href="js/li-slider/skins/Trend/skin.css" />
+<script type="text/javascript" src="js/li-slider/js/li-slider-animations-1.1.min.js"></script>
+<script type="text/javascript" src="js/li-slider/js/li-slider-1.1.min.js"></script>
+<script type="text/javascript">
+    $(window).load(
+			function () {
+			    $("#big_slider").sp_Li_Slider({
+			        animation: "Regular-Exception", // type of Animation: Regular, Random, Regular-Custom, Random-Custom, Regular-Exception, Random-Exception  			
+			        transitions: 'None', 			// None|transition_name(s) // List of custom animations - for full list please reference to the preview (works only with "Regular-Custom, Random-Custom, Regular-Exception , Random-Exception ")
+			        auto_play: true,   			// true|false - auto play on start
+			        repeat: true, 				// true|false|number - how many times to repeat all slides
+			        modalMode: 'prettyPhoto', // lightBox|prettyPhoto|off
+			        goToSlideOnStart: 1, 					// value //any slide number starting from 1 or url?sp_slide=2
+			        timer: 'line_bottom', // no|line_bottom|line_top|line_right|line_left
+			        pauseOnMouseOver: true, 				// true|false
+			        tooltip: 'image', 		// none|text|image
+			        tooltipSize: 20, 					// value // % of slider dimentions from 0 to 100. Use 0 to disable it
+			        shuffle: false, 			// true|false - randomize the images order
+			        delay: 3000, 				// value // time period of a photos displaying /default - 3000 (3 sec)
+			        trans_period: 800, 				// value // time period of chenging the photos /default - 1000 (1 sec)
+			        vert_sections: 10, 					// value // number of vertical sectors (only for Animation type Blind) /default - 15
+			        sqr_sections_Y: 4, 					// value // number of squeres by vertical (only for Animation type Sqr) /default - 5
+			        active_links: true, 				// true|false //activate links of photos /default - true
+			        buttons_show: true, 				// true|false //show all buttons 		/default - true
+			        play_pause_show: true, 				// true|false //show Play or Pause buttons	/default - true
+			        next_prev_show: true, 				// true|false //show Next or Prev buttons	/default - true
+			        auto_hide: true, 				// true|false // auto hide buttons ot start (when auto_play is true)
+			        buttons_show_time: 1000, 				// value 			//time period befor displayins of the buttons 	/default - 100
+			        buttons_show_delay: 200, 				// value //time period for appearing of the buttons		/default - 300
+			        buttons_hide_time: 1000, 				// value //time period befor disappearing of the buttons/default - 2000
+			        buttons_hide_delay: 200						// value //time period for disappearing of the buttons	/default - 500
+			    });
+			}
+		);		
+</script>
+<!-- Tipsy -->
+<script src="js/tipsy/jquery.tipsy.js" type="text/javascript"></script>
+<link href="js/tipsy/css.tipsy.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.tweet.js" type="text/javascript"></script>
+<link href="js/jquery.tweet.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<!-- MAIN WRAPPER -->
+    <asp:Panel ID="_pnlKapat" runat="server">
+<div id="container"> 
+  
+  <!-- SIDEFEATURES -->
+  <div id="sidefeatures">
+    <ul>
+      <li class="side_cart"><span class="icon">Siparişleriniz</span>
+        <div id="cart">
+          <div class="heading">
+            <h4>Siparişleriniz</h4>
+            <span id="cart_total"><asp:Label ID="_lblAdet" runat="server" Text=""></asp:Label> - <asp:Label ID="_lblToplam2" runat="server" Text=""></asp:Label></span> </div>
+          <div class="content">
+            <table class="cart">
+              <tbody>
+                  <asp:Repeater ID="_lstSepet" runat="server">
+                  <ItemTemplate>
+                  <tr>
+                  <td class="image"><a href="#"><img alt="Spicylicious" src="image/cart_pic1.jpg"/></a></td>
+                  <td class="name"><a href="Yemek.aspx?myp=<%# Eval("id") %>"><%# Eval("isim") %></a>
+                    <div> </div></td>
+                  <td class="quantity"><%# Eval("adet") %></td>
+                  <td class="total"><%# Eval("tutar") %> TL</td>
+                </tr>
+                  </ItemTemplate>
+                  </asp:Repeater>
+              </tbody>
+            </table>
+            <table class="total">
+              <tbody>
+<%--                <tr>
+                  <td align="right"><b>Sub-Total</b></td>
+                  <td align="right">$459.99</td>
+                </tr>
+                <tr>
+                  <td align="right"><b>VAT 17.5%</b></td>
+                  <td align="right">$80.50</td>
+                </tr>--%>
+                <tr>
+                  <td align="right"><b>Toplam</b></td>
+                  <td align="right">
+                      <asp:Label ID="_lblToplam" runat="server" Text=""></asp:Label></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="checkout"><a class="button" href="Odeme.aspx"><span>Siparişi Tamamla</span></a></div>
+          </div>
+        </div>
+      </li>
+      <li class="side_currency"><span class="icon">Currency</span>
+        <div id="currency"> Currency <a href="#" title="Euro">€</a> <a href="#" title="Pound Sterling">£</a> <a title="US Dollar">$</a> </div>
+      </li>
+      <li class="side_lang"><span class="icon">Language</span>
+        <div id="language"> Language <a href="#" title="English"><img src="image/gb.png" alt="Spicylicious store"/></a> <a href="#" title="Deutsch"><img src="image/de.png" alt="Spicylicious store"/></a> <a title="Bylgarski"><img src="image/bg.png" alt="Spicylicious store"/></a> </div>
+      </li>
+      <li class="side_search"><span class="icon">Search</span>
+        <div id="search">
+          <input type="text" onkeydown="this.style.color = '#000000';" onclick="this.value = '';" value="Search" name="filter_name"/>
+          <a href="#" class="button-search"></a> </div>
+      </li>
+    </ul>
+  </div>
+  <!-- END OF SIDEFEATURES --> 
+  
+  <!-- HEADER -->
+  <div id="header">
+    <div class="inner">
+      <ul class="main_menu menu_left">
+        <li><a href="Hizmet.aspx">Hizmetlerimiz</a></li>
+        <li><a href="Sayfa.aspx">Hakkımızda</a></li>
+        <li><a href="Anasayfa.aspx">Anasayfa</a>
+            
+<%--          <ul class="secondary">
+            <li><a href="index2.html">Home with LI SLIDER</a></li>
+          </ul>--%>
+        </li>
+      </ul>
+      <div id="logo"><a href="Anasayfa.aspx">
+          <asp:Image ID="Image1" runat="server" width="217" height="141" alt="Cadde Çorbacısı" />
+         
+      </a></div>
+      <ul class="main_menu menu_right">
+        <li><a href="Menu.aspx">Menümüz</a></li>
+        <li><a href="Siparis.aspx">Sepetiniz</a></li>
+        <li><a href="Iletisim.aspx">İletişim</a></li>
+      </ul>
+      <div id="welcome">
+          <asp:Label ID="_lblTarih" runat="server" Text=""></asp:Label></div>
+      <div class="menu">
+        <ul id="topnav">
+            <asp:Repeater ID="_lstUstMenu" runat="server">
+            <ItemTemplate>
+           <li><a href="Kategori.aspx?KatID=<%#Eval("KategoriID") %>"><%#Eval("KategoriAdi") %></a>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </ItemTemplate>
+            </asp:Repeater>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- END OF HEADER --> 
+ 
+  
+  <!-- CONTENT -->
+  <div id="content_holder" class="fixed">
+    <div class="inner">
+      <div id="content">
+      <form id="form1" runat="server">
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          </asp:ContentPlaceHolder></form>
+      </div>
+    </div>
+  </div>
+  <!-- END OF CONTENT --> 
+  <!-- PRE-FOOTER -->
+  <div id="pre_footer">
+    <div class="inner">
+      
+    </div>
+  </div>
+  <!-- END OF PRE-FOOTER --> 
+  
+  <!-- FOOTER -->
+
+  <!-- END OF FOOTER --> 
+  <span>
+      <asp:Label ID="_lblFooter" runat="server" Text=""></asp:Label></span>
+  <span class="copyright">Powered By <a href="http://www.mercanyazilim.net/">Mercan Yazılım .NET</a></span>
+</div></asp:Panel>
+<!-- END OF MAIN WRAPPER --> 
+<script type="text/javascript" src="../../twitter.com/javascripts/blogger.js"></script> 
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/d_koev.json?callback=twitterCallback2&count=3"></script> 
+<script type="text/javascript"><!--
+    $(document).ready(function () {
+        $('#twitter_update_list').cycle({
+            fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+            next: '#tweet_next',
+            prev: '#tweet_prev'
+        });
+    });
+//--></script> 
+<script type="text/javascript">
+    $(document).ready(function () {
+        var interval;
+        $('ul#myRoundabout')
+		.roundabout({
+		    'btnNext': '.next_round',
+		    'btnPrev': '.previous_round'
+		}
+		  )
+		.hover(
+		function () {
+
+		    clearInterval(interval);
+		},
+		function () {
+
+		    interval = startAutoPlay();
+		});
+
+        interval = startAutoPlay();
+    });
+    function startAutoPlay() {
+        return setInterval(function () {
+            $('ul#myRoundabout').roundabout_animateToPreviousChild();
+        }, 3000);
+    } 
+</script>
+</body>
+</html>
+

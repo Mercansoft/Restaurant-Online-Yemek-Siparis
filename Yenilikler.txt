@@ -1,0 +1,5 @@
+Uyarý Sistemi Modülü Eklendi.
+Sipariþ Formu KOntrolleri Yapýldý.
+Sipariþler Tek Kolonda Toplandý.
+Yemek için Eklenti bölümü eklendi.
+Eklenti ekleme bölümü yapýldý.
